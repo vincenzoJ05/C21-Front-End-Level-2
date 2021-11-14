@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'raleway', sans-serif;
+    background: url('../image/pexels-stephan-seeber-1261728.jpg');
+    background-repeat: 0,1000px;
+}
+
+.logo{
+   height:50px;
+   width:50px;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#navbar{
+    margin-top: 6rem;
+}
+
+#navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar .container ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar .container ul li a{
+    display: inline-block;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 2.8rem;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 0.25rem 0;
+    transition: border 0.5s;
+}
+
+#navbar .container ul li a:hover{
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/*showcase*/
+h1{
+    color: #333;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+
+.image{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
+    opacity: 80%;
+    width: 700px;
+    line-height: 3.8rem;
+    margin-bottom: 4rem;
+    margin: auto;
+}
+
+.btn{
+    margin-left: 644px;
+    display: inline-block;
+    padding: 2.7rem 7.5rem;
+    background: #333;
+    font-size: 2rem;
+    color: #dadada;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+
+
+.btn:hover{
+    background: #807979;
+    
+}
